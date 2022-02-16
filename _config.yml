@@ -1,0 +1,50 @@
+# change the followings to match your Github username and repo name
+baseurl: "/tailpages" # the name of your github repo
+url: "https://chickensmitten.github.io" # the url of your github pages
+
+# site information used in page title, meta data etc.
+title: "JammedThoughts"
+description: Conversations with my younger self
+
+# color theme for links
+theme-color: green # indigo|yellow|pink|green|stone|
+
+# homepage information
+author: JammedThoughts
+author-bio: Hi, my name is Sheng. I write to share my sense of wonder. My writings vary but they are generally about epistemology, blockchains, NFTs, Cryptocurrencies etc. Click on any of the icons below to know what I am working on now.  # change to false to hide
+author-image: profile.jpeg  # file must be in the /assets/img/ folder
+bitcoin-image: bitcoinQR.png
+
+# navigation menu
+show-nav-menu: false
+
+nav-menu:
+- text: About
+  permalink: about
+- text: Bitcoin
+  permalink: bitcoin
+- text: Blog
+  permalink: blog
+
+# use false to turn off any social media links
+twitter: https://twitter.com/wonderingsheng
+facebook: false
+instagram: false
+github: false
+linkedin: false
+medium: false
+google-scholar: false
+substack: https://jammedthoughts.substack.com/
+email: false
+
+
+# footer information
+footer-msg: "Powered by Tailpages"
+footer-msg-link: https://github.com/harrywang/tailpages
+
+# google analytics
+google-analytics: 0
+
+# jekyll plugins - no need to change
+plugins:
+    - jekyll-seo-tag
